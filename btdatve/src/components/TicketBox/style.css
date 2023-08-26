@@ -1,0 +1,44 @@
+.overlay-bg {
+  background: rgba(128, 128, 128, 0.34);
+}
+.seat-block {
+  width: 700px;
+  padding: 3.5vw;
+  box-sizing: border-box;
+}
+.seat-block table {
+  width: 100%;
+}
+.seat-block button:focus {
+  outline: none;
+}
+.seat {
+  border: 3px solid orange;
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.payment-zone {
+  width: 350px;
+  color: white;
+}
+.screen {
+  border-bottom: 30px solid rgb(255, 159, 95);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  width: 100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 20px;
+  color: #fff;
+}
+
+.reservedSeat {
+  background: red;
+  cursor: no-drop !important;
+}
+
+.selectedSeat {
+  background: #28a745;
+  cursor: pointer !important;
+}
